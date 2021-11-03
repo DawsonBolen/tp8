@@ -1,0 +1,143 @@
+div#banan {
+  color: #000066;
+  font-family: font-family: 'Bebas Neue', cursive;
+  background-image: none;
+}
+
+h4 { 
+  font-family: 'Oswald', sans-serif;
+ font-family: Oswald, sans-serif;
+  margin-bottom: 0;
+}
+
+
+div#banan h1.name {
+  color: red;
+}
+
+#menu {
+  position: absolute;
+  display: inline-block;
+  color: black;
+
+}
+
+ul, ol {
+  margin-top: 0;
+  display: none;
+}
+
+
+ul.showMe,
+ol.showMe {
+  display: block;
+}
+
+.copyright {
+  font-family: Arial;
+  font-size: 14px;
+  font-style: italic;
+}
+
+
+
+
+
+  
+}
+
+#banan h1.tp6 {
+  color: black;
+}
+
+div {
+  display: inline-block;
+  width: 100vw
+  height: 40vh;
+  padding: 1vw;
+}
+
+
+
+  
+#ingredients {
+ 
+ display: block;
+  background-color: white;
+  border: 2px solid red;
+  border-radius: 10px;
+  font-family: 'Anton', sans-serif;
+  color: navyblue;
+  
+}
+
+#equipment {
+ 
+  display: block;
+  background-color: white;
+  border: 2px solid red;
+  border-radius: 10px;
+  font-family: 'Anton', sans-serif;
+  color: navyblue;
+  
+}
+
+#directions {
+ 
+  display: block;
+  background-color: white;
+  border: 2px solid red;
+  border-radius: 10px;
+  font-family: 'Anton', sans-serif;
+  color: navyblue;
+  
+}
+
+#contributor{
+  display: block;
+  font-size: 16px;
+  
+}
+
+footer {
+  float: left;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+
+
+/* breakpoint */
+
+@media (orientation: landscape) {
+  div {
+    width: calc(100vw/3-1vw);
+    height: 40vh;
+    float: left;
+  }
+  
+  
+}
+
+@media (orientation: portrait) {
+  div {
+  width: calc(100vw);
+    
+  }
+  
+  
+}
+
+
+
+@media screen and (max-width: 575px) {
+  #banan {
+    font-size: 25px;
+   
+
+
+
+
+
+
+  
